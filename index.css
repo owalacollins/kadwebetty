@@ -1,0 +1,108 @@
+header{
+    background-image: url(image1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 10vh 0;
+    position: relative;
+   
+}
+.container{
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+}
+h1{
+    color: yellow;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h4{
+    color: aqua;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+.container img{
+    height: 30vh;
+    border: 1px green solid;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px red solid;
+   
+}
+button{
+    display: block;
+    margin: 10vh auto;
+    padding: 5px 70px;
+    background: transparent;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.9;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(192, 123, 123);
+}
+p{
+    color: darkblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* main*/
+h2{
+    text-align: center;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+.course{
+    margin-top: 10vh;
+    border: 1px rgb(5, 197, 15) solid;
+    padding: 1vh;
+    box-shadow:  5px 5px 5px black;
+}
+.filling{
+    margin-top: 10vh;
+}
+input ,textarea{
+    border: 1px yellow solid;
+    border-radius: 10px;
+    margin-bottom:5vh ;
+    color: darkblue;
+    display: block;
+}
+.btn{
+    padding: 5px 70px;
+    background-color: rgba(11, 226, 241, 0.651);
+}
+/*footer*/
+footer{
+    background-color: black;
+    padding: 10vh;
+}
+h5{
+    color: whitesmoke;
+    
+}
+.row{
+    background-color: rgb(41, 28, 28);
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+      display:  block;
+      margin: 0 auto;  
+}
+li{
+   
+    list-style: none;
+    margin: 4vh;
+}
